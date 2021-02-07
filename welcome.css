@@ -35,11 +35,11 @@ textarea {
   height: 90%;
   padding: 20px;
   font-size: 30px;
+  color: black;
   border-radius: 30px;
   margin-bottom: 10px;
   background-color:#fefae0;
   resize: none;
-  color: #fff;
   border: solid 8px #ffe6f0;
 }
 button {
@@ -72,7 +72,7 @@ textarea:focus {
 .box p {
   font-size: 20px;
   background-color: #fff;
-  color: #283618;
+  color: black;
   padding: 5px 20px;
   border-radius: 27px;
   border: solid 8px #ffe6f0;
