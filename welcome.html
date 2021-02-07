@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome</title>
+</head>
+<body>
+	<div class="text-typing">
+		<h1>TEXT-ANALYSER</h1>
+	</div>
+	<style type="text/css">
+		body {
+			margin:0px;
+			height:100vh;
+			display:flex;
+			align-items:center;
+			justify-content:center;
+			background:#ddd;
+		}
+		.text-typing {
+			padding:20px 30px;
+			background:#f5f5f5;
+			font-size:35px;
+			font-family:monospace;
+			border-radius:50px;
+		}
+		.text-typing h1 {
+			margin:0px;
+			white-space:nowrap;
+			overflow:hidden;
+			animation:typing 3s steps(13,end) forwards,
+			blink 1s infinite;
+		}
+		@keyframes typing {
+			0% { width:0% }
+			100% { width:100% }/*"text".length --> to count length in console window*/
+		}
+		@keyframes blink {
+			0%,50% {
+				border-right:2px solid transparent;
+			}
+			100% {
+				border-right:2px solid #222;
+			}
+		}
+
+	</style>
+</body>
+</html>
