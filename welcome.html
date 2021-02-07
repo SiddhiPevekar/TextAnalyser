@@ -64,6 +64,12 @@
 			animation:typing 3s steps(13,end) forwards,
 			blink 1s infinite;
 		}
+
+		@media screen and (max-width: 576px) {
+			.text-typing h1 {
+				font-size: 40px;
+			}
+		}
 		@keyframes typing {
 			0% { width:0% }
 			100% { width:100% }/*"text".length --> to count length in console window*/
