@@ -3,7 +3,7 @@ let text = null;
 let data = {
   words: 0,
   sentences: 0,
-  uppercaes: 0,
+  uppercase: 0,
   lowercase: 0,
   spaces: 0,
   digits: 0,
@@ -27,7 +27,7 @@ const setText = () => {
     data.sentences = findLength(text.match(/\056/g));
     data.words = findLength(text.match(/[a-zA-Z]+/g));
     data.spaces = findLength(text.match(/\s/g));
-    data.uppercaes = findLength(text.match(/[A-Z]/g));
+    data.uppercase = findLength(text.match(/[A-Z]/g));
     data.lowercase = findLength(text.match(/[a-z]/g));
     data.digits = findLength(text.match(/\d/g));
     data.vowels = findLength(text.match(/[aeiou]/gi));
